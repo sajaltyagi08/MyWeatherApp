@@ -1,0 +1,80 @@
+ body {
+ 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+    }
+
+    .Background {
+       
+        display: flex;
+        justify-content: center;
+        width : 350px;
+        height: 500px;
+        box-shadow:  0px 0px 10px 8px;
+        border: 2px solid greenyellow;
+        background: -webkit-linear-gradient(rgba(29, 38, 113, 0.8), rgba(30, 12, 17, 0.8)), url("https://t4.ftcdn.net/jpg/04/61/23/23/360_F_461232389_XCYvca9n9P437nm3FrCsEIapG4SrhufP.jpg");
+     }
+
+    
+input {
+    outline: none;
+    width: 200px;
+    height: 30px;
+    background: none;
+}
+
+button {
+   
+  margin-left: 2px;
+  padding: 9px 9px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+  border: none;
+  color: #fbfbfb; 
+  background-color: #f40d0d; 
+  border-radius: 5px; 
+  transition: background-color 0.9s, color 0.9s; 
+}
+
+
+button:hover {
+  background-color: #1f0544; 
+  color: #fafafa; 
+}
+
+h3 {
+    color:#f0fc16;
+    font-size: 25px;
+}
+
+.Temp {
+    font-size: 18px;
+    font-family: monospace;
+    color:#fafafa;
+}
+
+.WeatherPosition {
+    color : lightgreen;
+}
+
+img {
+
+width:  150px;
+height: 150px;
+margin-right: 20px;
+border-radius: 30%;
+
+
+}
+
+.ImgandWeatherType {
+
+    display: flex;
+    justify-content: center;
+
+
+}
